@@ -8,11 +8,11 @@ int main()
     {
         scanf("%d",&arr[i]);
     }
-    int m,count=0;
-    scanf("%d",&m);
+    int se,count=0;
+    scanf("%d",&se);
     for(int i=0; i<n; i++)
     {
-        if(arr[i]==m)
+        if(arr[i]==se)
         {
             count++;
         }
